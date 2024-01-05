@@ -3,6 +3,10 @@
 ## Overview
 This GitHub repository hosts a university assignment demonstrating a simple implementation of data streaming and visualization. It includes steps for fetching data from an external API, streaming it through Kafka, storing it in a PostgreSQL database, and visualizing it with Grafana.
 
+## Prerequisites
+  + docker
+  + docker-compose
+
 ## Technologies Used
 - **Grafana**: For creating interactive visualizations of the stored data.
 - **Prometheus**: Employed for monitoring the system's performance.
@@ -27,7 +31,7 @@ Please be aware that this setup is designed for educational and demonstration pu
 ## RUN
 To launch the setup, execute:
 ```{bash}
-compose up -d
+docker-compose up -d
 ```
 
 ## Contributions
