@@ -1,13 +1,13 @@
 import fetch from 'node-fetch';
 import fs from 'fs'
 
-const data = fs.readFileSync('config.json', 'utf8');
-const config = JSON.parse(data);
-
-const apiKey = config.apiKey;
-const stock = process.env.STOCK
-
 export async function fetchStocksData() {
+  const data = fs.readFileSync('config.json', 'utf8');
+  const config = JSON.parse(data);
+  
+  const apiKey = config.apiKey;
+  const stock = process.env.STOCK
+  
   console.log(`***** Fetching data for stock: ${stock} *****`);
 
   try {

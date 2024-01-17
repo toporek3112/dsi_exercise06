@@ -9,7 +9,7 @@ This GitHub repository hosts a university assignment demonstrating a simple impl
 
 ## Technologies Used
 - **Grafana**: For creating interactive visualizations of the stored data.
-- **Prometheus**: Employed for monitoring the system's performance.
+- **Prometheus**: Employed for storing postgreSQL metrics.
 - **Apache Kafka**: Utilized for data streaming, including Kafka brokers and custom Kafka producers and consumers.
 - **PostgreSQL**: Serves as the database for storing the fetched data.
 
