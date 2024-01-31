@@ -115,7 +115,7 @@ services:
     environment:
       MODE: 'producer'
       KAFKA_HOST: 'dsi_kafka_00:9094'
-      STOCK: 'NFLX'
+      STOCK: 'UBER'
       DEV: 'true'
     restart: unless-stopped
     depends_on:
