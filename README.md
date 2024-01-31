@@ -1,5 +1,10 @@
 # Data Streaming and Visualization Example
 
+#### Note
+If you encounter any problems starting this example I encourage you to create an issue. This helps improve this small project and also makes it better for everyone to use and learn from it :)
+
+Just for reference my setup is an Ubuntu 22.04.3 LTS
+
 ## TL;TR
 This GitHub repository hosts a university assignment demonstrating a simple implementation of data streaming and visualization. It includes steps for fetching data from an external API, streaming it through Kafka, storing it in a PostgreSQL database, and visualizing it with Grafana.
 
